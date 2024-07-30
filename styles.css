@@ -1,0 +1,109 @@
+/* ######## Estilos Generales ####### */
+*{
+    box-sizing: border-box;     
+}
+body{
+    min-height: 100vh;    
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top:0px;
+    line-height: 1.6;
+
+}
+
+p{
+    font-size: 16px;
+       
+}
+
+h1,.color-h1  {
+    color:hsl(24, 5%, 18%);
+    font-weight: bold;   
+}
+
+h3, p .span-nutrition, .li-two li::marker, .li-three li::marker{
+    color:hsl(14, 45%, 36%); 
+}
+h4 {
+    color: hsl(332, 51%, 32%);
+}
+
+/* ---- fonts ---- */
+h1, h3{
+    font-family:"Young Serif", serif;
+    font-weight: 400;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen img{
+    width:400px;
+    margin: 0px;
+}
+
+.Preparation
+{
+    padding: 10px 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;    
+}
+
+.li-one li::marker{
+    color: hsl(332, 51%, 32%);  
+  }
+  
+.li-three li::marker , .span-nutrition{
+
+    font-weight: bold;   
+
+}
+
+/* ######## Desktop ####### */
+@media(min-width:410px){
+    body{
+        background-color: hsl(30, 54%, 90%);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .card{
+
+        width: 400px;
+        background-color: white;
+        border-radius: 10px;
+        
+    
+    }
+
+    .imagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 15px;
+        
+    }
+
+    .imagen img{
+        border-radius:20px;
+        width:380px;
+        padding: 10px;
+    }
+   
+}
